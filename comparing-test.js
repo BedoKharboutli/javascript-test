@@ -1,5 +1,6 @@
 "use strict";
 
+let result;
 const btnWlc = document.querySelector(".dir-btn");
 const directionInput = document.querySelector(".dir-input");
 const northAns = document.querySelector(".north");
@@ -7,7 +8,7 @@ const southAns = document.querySelector(".south");
 const westAns = document.querySelector(".west");
 const eastAns = document.querySelector(".east");
 const btnOK = document.querySelector(".btn");
-let result;
+
 btnOK.addEventListener("click", function () {
   result = prompt("what direction do you want to go again !");
   if (result === "north") {
