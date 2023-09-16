@@ -17,7 +17,7 @@ btnOK.addEventListener("click", function () {
     );
   } else if (result === "south" || result === "west" || result === "east") {
     document.write(
-      "Sorry, you reach a dead end, surrounded by walls closing in. Waster"
+      "Sorry, you reach a dead end, surrounded by walls closing in. Wasted"
     );
   } else {
     document.write(
