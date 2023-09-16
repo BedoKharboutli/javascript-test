@@ -1,0 +1,44 @@
+/*.north {
+  display: none;
+}
+
+.south {
+  display: none;
+}
+
+.east {
+  display: none;
+}
+
+.west {
+  display: none;
+}
+
+.non-direction {
+  display: none;
+}
+*/
+img {
+  width: 1000px;
+  height: 400px;
+  right: auto;
+  margin-left: 250px;
+}
+.wlc-msg {
+  text-align: center;
+}
+.despriction-head {
+  font-family: fantasy;
+  text-align: center;
+}
+
+.input {
+  text-align: center;
+}
+
+.btn {
+  margin-left: auto;
+  margin-left: 43%;
+  border-radius: 10px;
+  font-size: larger;
+}
