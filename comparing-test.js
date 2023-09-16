@@ -7,7 +7,7 @@ const southAns = document.querySelector(".south");
 const westAns = document.querySelector(".west");
 const eastAns = document.querySelector(".east");
 const btnOK = document.querySelector(".btn");
-
+let result;
 btnOK.addEventListener("click", function () {
   result = prompt("what direction do you want to go again !");
   if (result === "north") {
